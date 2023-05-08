@@ -16,7 +16,30 @@ const routes = [
     component: function () {
       return import(/* webpackChunkName: "about" */ '../views/AboutView.vue')
     }
-  }
+  },
+  {
+    path: '/resume',
+    name: 'resume',
+    component: function () {
+      return import(/* webpackChunkName: "about" */ '../views/ResumeView.vue')
+    }
+  },
+  {
+    path: '/projects',
+    name: 'projects',
+    component: function () {
+      return import(/* webpackChunkName: "about" */ '../views/ProjectView.vue')
+    }
+  },
+  {
+    path: '/testimonials',
+    name: 'testimonials',
+    component: function () {
+      return import(/* webpackChunkName: "about" */ '../views/TestimonialsView.vue')
+    }
+  },
+
+
 ]
 
 const router = createRouter({
