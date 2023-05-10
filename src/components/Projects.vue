@@ -67,6 +67,11 @@ export default {
                 weblink : "https://isipho-bb5e9.web.app/",
                 github : "https://github.com/Sakhe12/Isipho-Capstone-project.git"
             },
+            {
+                img : "https://i.postimg.cc/0QNfP7XC/idea.gif",
+                task : "Curren-portfolio-project",
+                github : "https://github.com/Sakhe12/Vue-portfolio-2.git"
+            },
           ]  
         }
     },

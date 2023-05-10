@@ -55,7 +55,7 @@ a  {
      #heading {
         /* width: 100%;
         height: 100%; */
-        top: 15%;
+        top: 30%;
         position: relative;
         animation: example 8s infinite;
     }
