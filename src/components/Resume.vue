@@ -44,55 +44,91 @@
     </div>
   </div>
 </div>
+<div class="progress-container">
+  <div class="progress-bar"></div>
+</div>
+<section id="skills" class="container skills bg-gradient">
+            <h2 class="display-2">Skills</h2>
+            <p class="lead"><i class="bi bi-filetype-html"></i>HTML</p>
+            <div class="progress">
+              <div class="progress-bar progress-bar-striped progress-bar-animated text-bg-info" role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 80%"></div>
+            </div>
+            <p class="lead"><i class="bi bi-filetype-css"></i>CSS</p>
+            <div class="progress">
+              <div class="progress-bar progress-bar-striped progress-bar-animated text-bg-danger" role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 70%"></div>
+            </div>
+            <p class="lead"><i class="fa-brands fa-bootstrap"></i>Bootstrap</p>
+            <div class="progress">
+              <div class="progress-bar progress-bar-striped progress-bar-animated text-bg-success" role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 85%"></div>
+            </div>
+            <p class="lead"><i class="fa-brands fa-node-js"></i>Javascript</p>
+            <div class="progress">
+              <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width:60%"></div>
+            </div>
+            <p class="lead"><i class="fa-brands fa-vuejs"></i>Vue Js</p>
+            <div class="progress">
+              <div class="progress-bar progress-bar-striped progress-bar-animated text-bg-warning" role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width:65%"></div>
+            </div>
+            <h2 class="display-2">Soft Skills</h2>
+            <p class="lead"><i class="bi bi-screwdriver"></i>Problem-solving</p>
+            <div class="progress">
+              <div class="progress-bar progress-bar-striped progress-bar-animated text-bg-dark" role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 80%"></div>
+            </div>
+            <p class="lead"><i class="bi bi-lightbulb-fill"></i>Creativity</p>
+            <div class="progress">
+              <div class="progress-bar progress-bar-striped progress-bar-animated text-bg-dark" role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 85%"></div>
+            </div>
+          </section>
     </div>
 </template>
 <script>
 export default {
-    name: "work",
-    data() {
-        return {
-          jobs : [
-          { 
-            title: "Lecturer Assistant",
-            company: "Life Choices Academy",
-            duration: "May 2023",
-            description: "My main duties as a lecturer assistant was to assist the lecturers with admin as well as to lend a helping hand to the students with coding relating matters as well as being a motivator to them. I am doing this alongside being an intern developer"
-          },
-          { 
-            title: "Intern Developer",
-            company: "LC Studio",
-            duration: "March 2023",
-            description: "I am currently in an internship  program at LC Studio, a web development agency for Life Choices, where we have been working on real-world projects and we also upskill ourselves further."
-          },
-          { 
-            title: "Flexi Perm Customer Service Agent",
-            company: "Mr D Food",
-            duration: "March 2020 - September 2023",
-            description: ""
-          }
-          ],
-          academics: [
-            {
-              occupation: "Student",
-              institution: "Life Choices Academy",
-              year: "September 2022 - March 2023",
-              text: "I was studying web development doing both front end and backend development"
-            },
-            {
-              Occupation: "Student",
-              institution: "University of The Western Cape",
-              year: "February 2018 - 2020",
-              text: "I unfortunately was not able to to complete my BA degree due to funding issues"
-            },
-            {
-              Occupation: "Student",
-              institution: "Goodwood College",
-              year: "January 2017 - 2017",
-              text: "I passed my matric with an admission to bachelors degree pass"
-            },
-          ]
-        }
-    }
+  
+    // name: "work",
+    // data() {
+    //     return {
+    //       jobs : [
+    //       { 
+    //         title: "Lecturer Assistant",
+    //         company: "Life Choices Academy",
+    //         duration: "May 2023",
+    //         description: "My main duties as a lecturer assistant was to assist the lecturers with admin as well as to lend a helping hand to the students with coding relating matters as well as being a motivator to them. I am doing this alongside being an intern developer"
+    //       },
+    //       { 
+    //         title: "Intern Developer",
+    //         company: "LC Studio",
+    //         duration: "March 2023",
+    //         description: "I am currently in an internship  program at LC Studio, a web development agency for Life Choices, where we have been working on real-world projects and we also upskill ourselves further."
+    //       },
+    //       { 
+    //         title: "Flexi Perm Customer Service Agent",
+    //         company: "Mr D Food",
+    //         duration: "March 2020 - September 2023",
+    //         description: ""
+    //       }
+    //       ],
+    //       academics: [
+    //         {
+    //           occupation: "Student",
+    //           institution: "Life Choices Academy",
+    //           year: "September 2022 - March 2023",
+    //           text: "I was studying web development doing both front end and backend development"
+    //         },
+    //         {
+    //           Occupation: "Student",
+    //           institution: "University of The Western Cape",
+    //           year: "February 2018 - 2020",
+    //           text: "I unfortunately was not able to to complete my BA degree due to funding issues"
+    //         },
+    //         {
+    //           Occupation: "Student",
+    //           institution: "Goodwood College",
+    //           year: "January 2017 - 2017",
+    //           text: "I passed my matric with an admission to bachelors degree pass"
+    //         },
+    //       ]
+    //     }
+    // }
 }
 </script>
 <style scoped>
@@ -142,13 +178,14 @@ body {
   right: -17px;
   background-color: #D9D9D9;
   border: 4px solid #DDBEA9;
-  top: 15px;
+  top: 5px;
   border-radius: 50%;
   z-index: 1;
 }
 
 /* Place the container to the left */
 .left {
+  color: #474e5d;
   right: 25.5%;
 }
 
@@ -235,4 +272,5 @@ body {
     right: 0%;
   }
 }
+
 </style>

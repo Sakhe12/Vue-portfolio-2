@@ -7,8 +7,10 @@
                     <img :src="work.img" class="card-img-top pic" alt="...">
                     <div class="card-body">
                       <h5 class="card-title">{{work.task}}</h5>
-                      <a :href="work.weblink" target="_blank" class="btn btn-danger">Browser</a>
-                      <a :href="work.github" target="_blank" class="btn btn-dark">Github</a>
+                      <div class="icons">
+                          <a :href="work.weblink" target="_blank" class="btn btn-danger">Browser</a>
+                          <a :href="work.github" target="_blank" class="btn btn-dark">Github</a>
+                      </div>
                     </div>
                   </div>
             </div>
@@ -75,9 +77,11 @@ export default {
     min-height: 100vh;
     padding-bottom: 3rem;
 }
+
 .cards {
     background-color: #DDBEA9;
     opacity: 70%;
+    padding-top: 2%;
 }
 
 </style>

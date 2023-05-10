@@ -38,6 +38,13 @@ const routes = [
       return import(/* webpackChunkName: "about" */ '../views/TestimonialsView.vue')
     }
   },
+  {
+    path: '/contact',
+    name: 'contact',
+    component: function () {
+      return import(/* webpackChunkName: "about" */ '../views/ContactView.vue')
+    }
+  },
 
 
 ]

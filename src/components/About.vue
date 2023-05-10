@@ -24,6 +24,9 @@ export default {
 }
 </script>
 <style scoped>
+/* .container {
+    min-height: 80vh !important;
+} */
 .lead {
     font-size: 1.2rem;
     margin-top: 15%;

@@ -6,7 +6,7 @@
                 <div class="col-sm-6">
                     <h4 id="heading" class="display-4 text-liter">Hi I am <span class="">Sakhe Mzolisa</span>, an Intern Developer as well as an aspiring UX Designer & AWS Cloud Practioner.</h4>
                     <button type="button" class="btn btn-primary">
-                        <a href="./Sakhe resume.pdf" download class="text" target="_blank"><i class="bi bi-linkedin"></i><strong>Download Cv</strong></a>
+                        <a href="./Sakhe's Resume.pdf" download class="text" target="_blank"><i class="bi bi-linkedin"></i><strong>Download Cv</strong></a>
                     </button>
                 </div>
                 <div class="col">
@@ -18,15 +18,15 @@
     </div>
 </template>
 <script>
-import jsPDF from "jspdf";
+// import jsPDF from "jspdf";
 export default {
-    methods: {
-        generatePdf() {
-            var doc = new jsPDF();
-            doc.text(100, 100, "Hello World!");
-            doc.save("../assets/");
-        }
-    }
+    // methods: {
+    //     generatePdf() {
+    //         var doc = new jsPDF();
+    //         doc.text(100, 100, "Hello World!");
+    //         doc.save("../assets/");
+    //     }
+    // }
 }
 </script>
 <style scoped>    
@@ -40,7 +40,7 @@ span {
  }
  button {
     background-color: #DDBEA9;
-    margin-top: 15%;
+    margin-top: 12%;
     margin-right: 50%;
     width: 30%;
 }
@@ -55,7 +55,7 @@ a  {
      #heading {
         /* width: 100%;
         height: 100%; */
-        top: 20%;
+        top: 15%;
         position: relative;
         animation: example 8s infinite;
     }
