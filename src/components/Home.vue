@@ -40,7 +40,7 @@ span {
  }
  button {
     background-color: #DDBEA9;
-    margin-top: 12%;
+    margin-top: 20%;
     margin-right: 50%;
     width: 30%;
 }
@@ -55,7 +55,7 @@ a  {
      #heading {
         /* width: 100%;
         height: 100%; */
-        top: 30%;
+        top: 15%;
         position: relative;
         animation: example 8s infinite;
     }
