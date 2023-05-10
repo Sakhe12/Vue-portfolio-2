@@ -1,89 +1,48 @@
 <template lang="">
     <div>
-      <div class="timeline">
-  <div class="container left">
-    <div class="content">
-      <h3>2023</h3>
-      <h4>Life Choices Academy Lecturer Assistant</h4>
-      <p>My main duties as a lecturer assistant was to assist the lecturers with admin as well as to lend a helping hand to the students with coding relating matters as well as being a motivator to them. I am doing this alongside being an intern developer</p>
-    </div>
-  </div>
-  <div class="container right">
-    <div class="content">
-      <h3>2023</h3>
-      <h4>LC Studio Intern Developer</h4>
-      <p>I am currently in an internship  program at LC Studio, a web development agency for Life Choices, where we have been working on real-world projects and we also upskill ourselves further.</p>
-    </div>
-  </div>
-  <div class="container left">
-    <div class="content">
-      <h3>2022-23</h3>
-      <h4>Life Choices Academy student</h4>
-      <p>Amongst the tech skills I was also taught soft skills at this wonderful institution. Soft skills which will help me greatly in life as I have gained the ability to reason properly with people.</p>
-    </div>
-  </div>
-  <div class="container right">
-    <div class="content">
-      <h3>2020-22</h3>
-      <h4>Mr D Food Flexi Perm Customer Service Agent</h4>
-      <p>Resolving order related queries and troubleshooting any app or order issues which may or have disturb the customers purchase journey as well dealing with escalations, which are not limited to driver complaints and restuarants</p>
-    </div>
-  </div>
-  <div class="container left">
-    <div class="content">
-      <h3>2018-2021</h3>
-      <h4>University of The Western Cape</h4>
-      <p>I unfortunately was not able to to complete my BA degree due to funding related issues. I was majoring in Political Studies and History</p>
-    </div>
-  </div>
-  <div class="container right">
-    <div class="content">
-      <h3>2013-2017</h3>
-      <h4>Goodwood College</h4>
-      <p>I passed my matric with an admission to bachelors degree pass</p>
-    </div>
-  </div>
+      <h1>UL timeline cards</h1>
+<ul>
+    <li style="--accent-color:#41516C">
+        <div class="date">2023</div>
+        <div class="title">Life Choices Academy</div>
+        <div class="descr">My main duties as a lecturer assistant was to assist the lecturers with admin as well as to lend a helping hand to the students with coding relating matters as well as being a motivator to them. I am doing this alongside being an intern developer</div>
+    </li>
+    <li style="--accent-color:#FBCA3E">
+        <div class="date">2023</div>
+        <div class="title">LC Studio</div>
+        <div class="descr"></div>I am currently in an internship  program at LC Studio, a web development agency for Life Choices, where we have been working on real-world projects and we also upskill ourselves further.
+    </li>
+    <li style="--accent-color:#E24A68">
+        <div class="date">2022-23</div>
+        <div class="title">Life Choices Academy student</div>
+        <div class="descr">Amongst the tech skills I was also taught soft skills at this wonderful institution. Soft skills which will help me greatly in life as I have gained the ability to reason properly with people.</div>
+    </li>
+    <li style="--accent-color:#1B5F8C">
+        <div class="date">2020-22</div>
+        <div class="title">Mr D Food Flexi Perm Customer Service Agent</div>
+        <div class="descr">Resolving order related queries and troubleshooting any app or order issues which may or have disturb the customers purchase journey as well dealing with escalations, which are not limited to driver complaints and restuarants</div>
+    </li>
+    <li style="--accent-color:#4CADAD">
+        <div class="date">2018-21</div>
+        <div class="date">2022</div>
+        <div class="title">University of The Western Cape</div>
+        <div class="descr">I unfortunately was not able to to complete my BA degree due to funding related issues. I was majoring in Political Studies and History</div>
+    </li>
+</ul>
+<div class="credits"><a target="_blank" href="https://www.freepik.com/free-vector/infographic-template-with-yearly-info_1252895.htm">inspired by</a></div>
+<div class="container d-flex">
+  <i class="fa-brands fa-html5 fa-lg"></i>
+  <i class="fa-brands fa-css3-alt fa-lg"></i>
+  <i class="fa-brands fa-vuejs fa-lg"></i>
+  <i class="fa-brands fa-node fa-lg"></i>
+  <FontAwesomeIcon icon="fa-brands fa-figma" size="lg" />
+  <FontAwesomeIcon icon="fa-brands fa-wordpress" size="lg" />
+
 </div>
-<div class="progress-container">
-  <div class="progress-bar"></div>
-</div>
-<section id="skills" class="container skills bg-gradient">
-            <h2 class="display-2">Skills</h2>
-            <p class="lead"><i class="bi bi-filetype-html"></i>HTML</p>
-            <div class="progress">
-              <div class="progress-bar progress-bar-striped progress-bar-animated text-bg-info" role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 80%"></div>
-            </div>
-            <p class="lead"><i class="bi bi-filetype-css"></i>CSS</p>
-            <div class="progress">
-              <div class="progress-bar progress-bar-striped progress-bar-animated text-bg-danger" role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 70%"></div>
-            </div>
-            <p class="lead"><i class="fa-brands fa-bootstrap"></i>Bootstrap</p>
-            <div class="progress">
-              <div class="progress-bar progress-bar-striped progress-bar-animated text-bg-success" role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 85%"></div>
-            </div>
-            <p class="lead"><i class="fa-brands fa-node-js"></i>Javascript</p>
-            <div class="progress">
-              <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width:60%"></div>
-            </div>
-            <p class="lead"><i class="fa-brands fa-vuejs"></i>Vue Js</p>
-            <div class="progress">
-              <div class="progress-bar progress-bar-striped progress-bar-animated text-bg-warning" role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width:65%"></div>
-            </div>
-            <h2 class="display-2">Soft Skills</h2>
-            <p class="lead"><i class="bi bi-screwdriver"></i>Problem-solving</p>
-            <div class="progress">
-              <div class="progress-bar progress-bar-striped progress-bar-animated text-bg-dark" role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 80%"></div>
-            </div>
-            <p class="lead"><i class="bi bi-lightbulb-fill"></i>Creativity</p>
-            <div class="progress">
-              <div class="progress-bar progress-bar-striped progress-bar-animated text-bg-dark" role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 85%"></div>
-            </div>
-          </section>
     </div>
 </template>
 <script>
 export default {
-  
     // name: "work",
     // data() {
     //     return {
@@ -132,145 +91,200 @@ export default {
 }
 </script>
 <style scoped>
-    * {
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap");
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
 
 body {
-  background-color: #474e5d;
-  font-family: Helvetica, sans-serif;
+  --color: rgba(30, 30, 30);
+  --bgColor: rgba(245, 245, 245);
+  min-height: 100vh;
+  display: grid;
+  align-content: center;
+  gap: 2rem;
+  padding: 2rem;
+  font-family: "Poppins", sans-serif;
+  color: var(--color);
+  background: var(--bgColor);
 }
 
-/* The actual timeline (the vertical ruler) */
-.timeline {
+h1 {
+  text-align: center;
+}
+
+ul {
+  --col-gap: 2rem;
+  --row-gap: 2rem;
+  --line-w: 0.25rem;
+  display: grid;
+  grid-template-columns: var(--line-w) 1fr;
+  grid-auto-columns: max-content;
+  column-gap: var(--col-gap);
+  list-style: none;
+  width: min(60rem, 90%);
+  margin-inline: auto;
+}
+
+/* line */
+ul::before {
+  content: "";
+  grid-column: 1;
+  grid-row: 1 / span 20;
+  background: rgb(225, 225, 225);
+  border-radius: calc(var(--line-w) / 2);
+}
+
+/* columns*/
+
+/* row gaps */
+ul li:not(:last-child) {
+  margin-bottom: var(--row-gap);
+}
+
+/* card */
+ul li {
+  grid-column: 2;
+  --inlineP: 1.5rem;
+  margin-inline: var(--inlineP);
+  grid-row: span 2;
+  display: grid;
+  grid-template-rows: min-content min-content min-content;
+}
+
+/* date */
+ul li .date {
+  --dateH: 3rem;
+  height: var(--dateH);
+  margin-inline: calc(var(--inlineP) * -1);
+
+  text-align: center;
+  background-color: var(--accent-color);
+
+  color: white;
+  font-size: 1.25rem;
+  font-weight: 700;
+
+  display: grid;
+  place-content: center;
   position: relative;
-  max-width: 1200px;
-  margin: 0 auto;
+
+  border-radius: calc(var(--dateH) / 2) 0 0 calc(var(--dateH) / 2);
 }
 
-/* The actual timeline (the vertical ruler) */
-.timeline::after {
-  content: '';
+/* date flap */
+ul li .date::before {
+  content: "";
+  width: var(--inlineP);
+  aspect-ratio: 1;
+  background: var(--accent-color);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2) 100%, transparent);
   position: absolute;
-  width: 6px;
-  background-color: #000000;
-  top: 0;
-  bottom: 4.1%;
-  left: 50%;
-  margin-left: -3px;
+  top: 100%;
+
+  clip-path: polygon(0 0, 100% 0, 0 100%);
+  right: 0;
 }
 
-/* Container around content */
-.container {
-  padding: 10px 40px;
-  position: relative;
-  padding-bottom: 7%;
-  background-color: inherit;
-  width: 50%;
-}
-
-/* The circles on the timeline */
-.container::after {
-  content: '';
+/* circle */
+ul li .date::after {
+  content: "";
   position: absolute;
-  width: 25px;
-  height: 25px;
-  right: -17px;
-  background-color: #D9D9D9;
-  border: 4px solid #DDBEA9;
-  top: 5px;
+  width: 2rem;
+  aspect-ratio: 1;
+  background: var(--bgColor);
+  border: 0.3rem solid var(--accent-color);
   border-radius: 50%;
-  z-index: 1;
+  top: 50%;
+
+  transform: translate(50%, -50%);
+  right: calc(100% + var(--col-gap) + var(--line-w) / 2);
 }
 
-/* Place the container to the left */
-.left {
-  color: #474e5d;
-  right: 25.5%;
-}
-
-/* Place the container to the right */
-.right {
-  left: 25.5%;
-}
-
-/* Add arrows to the left container (pointing right) */
-.left::before {
-  content: " ";
-  height: 0;
-  position: absolute;
-  top: 22px;
-  width: 0;
-  z-index: 1;
-  right: 30px;
-  border: medium solid white;
-  border-width: 10px 0 10px 10px;
-  border-color: transparent transparent transparent white;
-}
-
-/* Add arrows to the right container (pointing left) */
-.right::before {
-  content: " ";
-  height: 0;
-  position: absolute;
-  top: 22px;
-  width: 0;
-  z-index: 1;
-  left: 30px;
-  border: medium solid #DDBEA9;
-  border-width: 10px 10px 10px 0;
-  border-color: transparent #DDBEA9 transparent transparent;
-}
-
-/* Fix the circle for containers on the right side */
-.right::after {
-  left: -16px;
-}
-
-/* The actual content */
-.content {
-  padding: 20px 30px;
-  background-color: #DDBEA9;
-  opacity: 90%;
+/* title descr */
+ul li .title,
+ul li .descr {
+  background: var(--bgColor);
   position: relative;
-  border-radius: 6px;
-  box-shadow: 0px 0px 15px #f181bd;
+  padding-inline: 1.5rem;
+}
+ul li .title {
+  overflow: hidden;
+  padding-block-start: 1.5rem;
+  padding-block-end: 1rem;
+  font-weight: 500;
+}
+ul li .descr {
+  padding-block-end: 1.5rem;
+  font-weight: 300;
 }
 
-/* Media queries - Responsive timeline on screens less than 600px wide */
-@media screen and (max-width: 600px) {
-  /* Place the timelime to the left */
-  .timeline::after {
-  left: 31px;
+/* shadows */
+ul li .title::before,
+ul li .descr::before {
+  content: "";
+  position: absolute;
+  width: 90%;
+  height: 0.5rem;
+  background: rgba(0, 0, 0, 0.5);
+  left: 50%;
+  border-radius: 50%;
+  filter: blur(4px);
+  transform: translate(-50%, 50%);
+}
+ul li .title::before {
+  bottom: calc(100% + 0.125rem);
+}
+
+ul li .descr::before {
+  z-index: -1;
+  bottom: 0.25rem;
+}
+
+@media (min-width: 40rem) {
+  ul {
+    grid-template-columns: 1fr var(--line-w) 1fr;
   }
-  
-  /* Full-width containers */
-  .container {
-  width: 100%;
-  padding-left: 70px;
-  padding-right: 25px;
+  ul::before {
+    grid-column: 2;
   }
-  
-  /* Make sure that all arrows are pointing leftwards */
-  .container::before {
-  left: 60px;
-  border: medium solid white;
-  border-width: 10px 10px 10px 0;
-  border-color: transparent white transparent transparent;
+  ul li:nth-child(odd) {
+    grid-column: 1;
+  }
+  ul li:nth-child(even) {
+    grid-column: 3;
   }
 
-  /* Make sure all circles are at the same spot */
-  .left::after, .right::after {
-  left: 15px;
+  /* start second card */
+  ul li:nth-child(2) {
+    grid-row: 2/4;
   }
-  
-  /* Make all right containers behave like the left ones */
-  .right {
-  left: 0%;
+
+  ul li:nth-child(odd) .date::before {
+    clip-path: polygon(0 0, 100% 0, 100% 100%);
+    left: 0;
   }
-  .left {
-    right: 0%;
+
+  ul li:nth-child(odd) .date::after {
+    transform: translate(-50%, -50%);
+    left: calc(100% + var(--col-gap) + var(--line-w) / 2);
   }
+  ul li:nth-child(odd) .date {
+    border-radius: 0 calc(var(--dateH) / 2) calc(var(--dateH) / 2) 0;
+  }
+}
+
+.credits {
+  margin-top: 1rem;
+  text-align: right;
+}
+.credits a {
+  color: var(--color);
 }
 
 </style>
