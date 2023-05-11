@@ -70,6 +70,7 @@ export default {
             {
                 img : "https://i.postimg.cc/0QNfP7XC/idea.gif",
                 task : "Curren-portfolio-project",
+                weblink : "https://my-portfolio-dc803.web.app/",
                 github : "https://github.com/Sakhe12/Vue-portfolio-2.git"
             },
           ]  
