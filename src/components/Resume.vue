@@ -2,35 +2,39 @@
     <div>
       <h1>UL timeline cards</h1>
 <ul>
-    <li style="--accent-color:#41516C">
+    <li style="--accent-color:#DDBEA9">
         <div class="date">2023</div>
         <div class="title">Life Choices Academy</div>
         <div class="descr">My main duties as a lecturer assistant was to assist the lecturers with admin as well as to lend a helping hand to the students with coding relating matters as well as being a motivator to them. I am doing this alongside being an intern developer</div>
     </li>
-    <li style="--accent-color:#FBCA3E">
+    <li style="--accent-color:#42b983">
         <div class="date">2023</div>
         <div class="title">LC Studio</div>
         <div class="descr"></div>I am currently in an internship  program at LC Studio, a web development agency for Life Choices, where we have been working on real-world projects and we also upskill ourselves further.
     </li>
-    <li style="--accent-color:#E24A68">
+    <li style="--accent-color:#DDBEA9">
         <div class="date">2022-23</div>
         <div class="title">Life Choices Academy student</div>
         <div class="descr">Amongst the tech skills I was also taught soft skills at this wonderful institution. Soft skills which will help me greatly in life as I have gained the ability to reason properly with people.</div>
     </li>
-    <li style="--accent-color:#1B5F8C">
+    <li style="--accent-color:#42b983">
         <div class="date">2020-22</div>
         <div class="title">Mr D Food Flexi Perm Customer Service Agent</div>
         <div class="descr">Resolving order related queries and troubleshooting any app or order issues which may or have disturb the customers purchase journey as well dealing with escalations, which are not limited to driver complaints and restuarants</div>
     </li>
-    <li style="--accent-color:#4CADAD">
+    <li style="--accent-color:#DDBEA9">
         <div class="date">2018-21</div>
-        <div class="date">2022</div>
         <div class="title">University of The Western Cape</div>
         <div class="descr">I unfortunately was not able to to complete my BA degree due to funding related issues. I was majoring in Political Studies and History</div>
     </li>
+    <li style="--accent-color:#42b983">
+        <div class="date">2013-17</div>
+        <div class="title">Goodwood College</div>
+        <div class="descr">I passed with an admission to bachelors pass.</div>
+    </li>
 </ul>
 <div class="credits"><a target="_blank" href="https://www.freepik.com/free-vector/infographic-template-with-yearly-info_1252895.htm">inspired by</a></div>
-<div class="container d-flex">
+<div class="container">
   <i class="fa-brands fa-html5 fa-lg"></i>
   <i class="fa-brands fa-css3-alt fa-lg"></i>
   <i class="fa-brands fa-vuejs fa-lg"></i>
