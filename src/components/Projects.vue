@@ -73,6 +73,16 @@ export default {
                 weblink : "https://my-portfolio-dc803.web.app/",
                 github : "https://github.com/Sakhe12/Vue-portfolio-2.git"
             },
+            {
+                img : "https://i.postimg.cc/tgcxL816/atm.gif",
+                task : "Wordpress music site",
+                weblink : "https://dev-sakhe.pantheonsite.io/",
+
+            },{
+                img : "https://i.postimg.cc/PrfmcgK6/wireframe.gif",
+                task : "Baba-yaga Wordpress site",
+                weblink : "https://dev-baba-yaga.pantheonsite.io/",
+            },
           ]  
         }
     },
