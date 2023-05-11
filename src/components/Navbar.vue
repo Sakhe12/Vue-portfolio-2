@@ -1,7 +1,7 @@
 <template>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
-          <a class="navbar-brand" href="/">Sakhe Mzolisa<i class="fa-solid fa-heart fa-beat" style="--fa-animation-duration: 1s;" ></i></a>
+          <a class="navbar-brand" href="/">Sakhe Mzolisa</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -23,7 +23,7 @@
                     <router-link class="txt-col" to="/testimonials">Testimonial</router-link>
                 </li>
                 <li class="nav-item">
-                    <router-link class="txt-col" to="/contact"><i class="fa-solid fa-envelope fa-flip" style="--fa-animation-duration: 3s;" ></i>Contact</router-link>
+                    <router-link class="txt-col" to="/contact">Contact</router-link>
                 </li>
             </ul>
           </div>

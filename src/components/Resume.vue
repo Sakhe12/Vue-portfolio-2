@@ -1,6 +1,5 @@
 <template lang="">
-    <div>
-      <h1>UL timeline cards</h1>
+    <div> <br>
 <ul>
     <li style="--accent-color:#DDBEA9">
         <div class="date">2023</div>
@@ -10,12 +9,26 @@
     <li style="--accent-color:#42b983">
         <div class="date">2023</div>
         <div class="title">LC Studio</div>
-        <div class="descr"></div>I am currently in an internship  program at LC Studio, a web development agency for Life Choices, where we have been working on real-world projects and we also upskill ourselves further.
+        <div class="descr">I am currently in an internship  program at LC Studio, a web development agency for Life Choices, where we have been working on real-world projects and we also upskill ourselves further.</div>
+        <div class="shapes d-flex justify-content-between">
+          <i class="fa-brands fa-wordpress mx-5"></i>
+          <i class="fa-brands fa-figma mx-5"></i>
+        </div>
     </li>
     <li style="--accent-color:#DDBEA9">
         <div class="date">2022-23</div>
         <div class="title">Life Choices Academy student</div>
         <div class="descr">Amongst the tech skills I was also taught soft skills at this wonderful institution. Soft skills which will help me greatly in life as I have gained the ability to reason properly with people.</div>
+        <div class="icons d-flex justify-content-between">
+          <i class="fa-brands fa-css3"></i>
+          <i class="fa-brands fa-html5"></i>
+          <i class="fa-brands fa-js"></i>
+          <i class="fa-brands fa-vuejs"></i>
+          <i class="fa-brands fa-bootstrap"></i>
+          <i class="fa-brands fa-git"></i>
+          <i class="fa-brands fa-github"></i>
+          <i class="fa-brands fa-node"></i>
+        </div>
     </li>
     <li style="--accent-color:#42b983">
         <div class="date">2020-22</div>
@@ -33,65 +46,12 @@
         <div class="descr">I passed with an admission to bachelors pass.</div>
     </li>
 </ul>
-<div class="credits"><a target="_blank" href="https://www.freepik.com/free-vector/infographic-template-with-yearly-info_1252895.htm">inspired by</a></div>
-<div class="container">
-  <i class="fa-brands fa-html5 fa-lg"></i>
-  <i class="fa-brands fa-css3-alt fa-lg"></i>
-  <i class="fa-brands fa-vuejs fa-lg"></i>
-  <i class="fa-brands fa-node fa-lg"></i>
-  <FontAwesomeIcon icon="fa-brands fa-figma" size="lg" />
-  <FontAwesomeIcon icon="fa-brands fa-wordpress" size="lg" />
-
-</div>
+<br>
     </div>
 </template>
 <script>
 export default {
-    // name: "work",
-    // data() {
-    //     return {
-    //       jobs : [
-    //       { 
-    //         title: "Lecturer Assistant",
-    //         company: "Life Choices Academy",
-    //         duration: "May 2023",
-    //         description: "My main duties as a lecturer assistant was to assist the lecturers with admin as well as to lend a helping hand to the students with coding relating matters as well as being a motivator to them. I am doing this alongside being an intern developer"
-    //       },
-    //       { 
-    //         title: "Intern Developer",
-    //         company: "LC Studio",
-    //         duration: "March 2023",
-    //         description: "I am currently in an internship  program at LC Studio, a web development agency for Life Choices, where we have been working on real-world projects and we also upskill ourselves further."
-    //       },
-    //       { 
-    //         title: "Flexi Perm Customer Service Agent",
-    //         company: "Mr D Food",
-    //         duration: "March 2020 - September 2023",
-    //         description: ""
-    //       }
-    //       ],
-    //       academics: [
-    //         {
-    //           occupation: "Student",
-    //           institution: "Life Choices Academy",
-    //           year: "September 2022 - March 2023",
-    //           text: "I was studying web development doing both front end and backend development"
-    //         },
-    //         {
-    //           Occupation: "Student",
-    //           institution: "University of The Western Cape",
-    //           year: "February 2018 - 2020",
-    //           text: "I unfortunately was not able to to complete my BA degree due to funding issues"
-    //         },
-    //         {
-    //           Occupation: "Student",
-    //           institution: "Goodwood College",
-    //           year: "January 2017 - 2017",
-    //           text: "I passed my matric with an admission to bachelors degree pass"
-    //         },
-    //       ]
-    //     }
-    // }
+
 }
 </script>
 <style scoped>
@@ -104,11 +64,16 @@ export default {
   padding: 0;
   box-sizing: border-box;
 }
-
+.icons {
+  color: #DDBEA9;
+}
+.shapes {
+  color: #42b983;
+}
 body {
   --color: rgba(30, 30, 30);
   --bgColor: rgba(245, 245, 245);
-  min-height: 100vh;
+  min-height: 1vh;
   display: grid;
   align-content: center;
   gap: 2rem;
@@ -289,6 +254,8 @@ ul li .descr::before {
 }
 .credits a {
   color: var(--color);
+  
 }
+
 
 </style>

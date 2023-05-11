@@ -9,8 +9,8 @@
                     <p class="text-muted"><i class="bi bi-envelope-fill"></i>sakhemzolisa@gmail.com</p>
                     <div class="icons gap-3">
                         <a href="https://www.linkedin.com/in/sakhe-mzolisa-507588230/" target="_blank"><i class="bi bi-linkedin"></i></a>
-                        <a href="https://github.com/Sakhe12"><i class="bi bi-github" target="_blank"></i> </a>
-                        <a href="https://twitter.com/MzolisaSakhe"><i class="bi bi-twitter"></i></a>
+                        <a href="https://github.com/Sakhe12" target="_blank"><i class="bi bi-github"></i> </a>
+                        <a href="https://twitter.com/MzolisaSakhe" target="_blank"><i class="bi bi-twitter"></i></a>
                     </div>
                 </div>
                 <div class="col Contact">
