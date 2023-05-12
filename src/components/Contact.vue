@@ -64,6 +64,7 @@ export default {
     }
     button { 
         background-color: #DDBEA9;
+        margin-bottom: 20%;
     }
     .Contact {
         padding-top: 5%;
@@ -96,4 +97,29 @@ export default {
     p { 
         padding-top: 5%;
     }
+    @media screen and (max-width: 700px) {
+  #contact {
+    text-align: center;
+  }
+  
+  .contactForm {
+    width: 90%;
+    margin: 0 auto;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label, input, textarea {
+    width: 100%;
+    margin: 10px 0;
+  }
+  
+  input[type="submit"] {
+    margin: 20px auto;
+  }
+}
+
 </style>
